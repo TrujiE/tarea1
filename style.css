@@ -1,0 +1,73 @@
+body{
+	background: black;
+	
+}
+input{
+	font-size: 18px;
+}
+p{
+	font-family: 'Handlee', cursive;
+}
+.postcard{
+	background: white;
+	height: 450px;
+	width: 650px;
+	align-items: center;
+	right: 30px;
+	margin:auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.titulo{
+	font-family: 'Handlee', cursive;
+}
+.encabezado{
+	height: 100px;
+	width: 650px;
+
+}
+.encabezado2{
+	height: 100px;
+	width: 350px;
+	float: left;
+}
+.encabezado3{
+	height: 100px;
+	width: 300px;
+	float: right;
+}
+.logo{
+	object-fit: cover;
+	padding-top: 10px;
+	padding-right: 5px;
+}
+.cuerpo{
+	height: 250px;
+	width: 650px;
+}
+.cuerpo-izquierda{
+	float: left;
+	width: 50%;
+}
+.cuerpo-derecha input[type=text]{
+	display: block;
+	float: right;
+	border: none;
+	border-bottom: 1px solid gray;
+	font-family: 'Handlee', cursive;
+	padding-right: 10px;
+	padding-top: 10px;
+	width: 40%;
+}
+.piepagina{
+	height: 100px;
+	width: 650px;
+	text-align: center;
+	font-family: 'Handlee', cursive;
+}
+.piepagina input[type=submit]{
+	border: none;
+	border-bottom: 2px solid gray;
+}
